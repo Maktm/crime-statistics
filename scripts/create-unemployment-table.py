@@ -50,7 +50,7 @@ def create_table():
     commands = (
         """CREATE TABLE unemployment(
             state VARCHAR(255) PRIMARY KEY,
-            rate INTEGER NOT NULL
+            rate FLOAT NOT NULL
         )""",
     )
 

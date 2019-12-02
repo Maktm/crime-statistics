@@ -83,7 +83,6 @@ def main():
         if state == 'district of columbia3':
             state = 'district of columbia'
         rows.append((state, population))
-    print(rows)
 
     print("* Creating table...")
     create_table()
