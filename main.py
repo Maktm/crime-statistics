@@ -45,7 +45,7 @@ def plot_crime():
         locationmode='USA-states',
         colorscale='Reds'
     ))
-    plotly.offline.plot(fig, filename='crimes.html')
+    plotly.offline.plot(fig, filename='html/crimes.html')
     print("* Successfully generated crime map!")
 
 def plot_population():
@@ -71,7 +71,7 @@ def plot_population():
         locationmode='USA-states',
         colorscale='Greens'
     ))
-    plotly.offline.plot(fig, filename='population.html')
+    plotly.offline.plot(fig, filename='html/population.html')
     print("* Successfully generated population map!")
 
 def plot_unemployment():
@@ -97,7 +97,7 @@ def plot_unemployment():
         locationmode='USA-states',
         colorscale='Blues'
     ))
-    plotly.offline.plot(fig, filename='unemployment.html')
+    plotly.offline.plot(fig, filename='html/unemployment.html')
     print("* Successfully generated unemployment map!")
 
 def main():
