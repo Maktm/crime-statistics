@@ -6,7 +6,7 @@ Fiona==1.8.11
 geopandas==0.6.2
 jellyfish==0.5.6
 munch==2.5.0
-numpy==1.17.4
+numpy==1.22.0
 pandas==0.25.3
 plotly==4.3.0
 plotly-geo==1.0.0
